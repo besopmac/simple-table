@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="is-clipped">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,8 +13,55 @@
 <body>
     <section class="section">
         <div class="container">
-            <h1 class="title">Hello World</h1>
-            <p class="subtitle">My first website with <strong>Bulma</strong>!</p>
+            <form id="data">
+                <div class="field">
+                    <label class="label">Nome</label>
+                    <div class="control">
+                        <input class="input" type="text" placeholder="Qual é o seu nome?" required>
+                    </div>
+                </div>
+
+                <div class="field">
+                    <label class="label">Email</label>
+                    <div class="control">
+                        <input class="input" type="email" placeholder="Qual é o seu email" required>
+                    </div>
+                </div>
+
+                <div class="field">
+                    <label class="label">Nascido em:</label>
+                    <div class="control">
+                        <input class="input" type="text" placeholder="Em que ano você nasceu?" required>
+                    </div>
+                </div>
+
+                <div class="field is-grouped is-grouped-right">
+                    <div class="control">
+                        <button class="button is-medium is-link">Submit</button>
+                    </div>
+                </div>
+            </form>
+
+            <hr />
+
+            <table class="table is-striped is-fullwidth">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Email</th>
+                        <th>Ano</th>
+                        <th>Idade</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Bruno</th>
+                        <td><a mailto="brunosopmac@gmail.com">brunosopmac@gmail.com</a></td>
+                        <td>1982</td>
+                        <td>36</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </section>
 
