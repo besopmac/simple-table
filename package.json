@@ -1,0 +1,25 @@
+{
+  "name": "dogos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/besopmac/dogos.git"
+  },
+  "keywords": [],
+  "author": "Bruno Campos <brunosopmac@gmail.com> (https://besopmac.me/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/besopmac/dogos/issues"
+  },
+  "homepage": "https://github.com/besopmac/dogos#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "nodemon": "^1.18.9"
+  }
+}
